@@ -49,6 +49,14 @@ export default function Sidebar() {
                 </div>
 
             </nav>
+
+            <div className="sidebar-footer">
+                <div className="user-info">
+                    <div className="user-avatar">A</div>
+                    <div className="user-name">Admin</div>
+                </div>
+            </div>
+
         </aside>
     )
 }
