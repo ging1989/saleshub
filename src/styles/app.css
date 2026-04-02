@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600;700&display=swap');
+
+:root {
+    --font:         var(var(--font)), sans-serif;
+    --font-print:   'Sarabun', san-serif;
+
+/* Colors */
+    --bg:           #f4f5f7;
+    --surface:      #ffffff;
+    --border:       #e5e7eb;
+    --border-md:    #d1d5db;
+
+/* Text */
+    --text-primary:     #111827;
+    --text-secondary:   #6b7280;
+    --text-muted:       #9ca3af;
+
+/* Brand */
+    --brand:        #1e40af;
+    --brand-light:  #eff6ff;
+    --brand-text:   #1d4ed8;
+
+/* Status */
+    --green:        #059669;
+    --green-light:  #ecfdf5;
+    --green-text:   #065f45;
+
+    --amber:        #d97706;
+    --amber-light:  #fffbeb;
+    --amber-text:   #92400e;
+
+      --red:         #dc2626;
+    --red-light:   #fef2f2;
+    --red-text:    #991b1b;
+
+/* Layout */
+     --sidebar-width: 220px;
+     --topbar-height: 52px;
+     --radius:        6px;
+     --radius-lg:     10px;
+}
