@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600;700&display=swap');
 
 :root {
-    --font:         var(var(--font)), sans-serif;
-    --font-print:   'Sarabun', san-serif;
+    --font-print:   'Sarabun', sans-serif;
 
 /* Colors */
     --bg:           #f4f5f7;

@@ -1,10 +1,11 @@
-import { Google_Sans, Maname } from 'next/font/google'
+import { Google_Sans } from 'next/font/google'
 import Sidebar from '@/components/layout/Sidebar'
 import Topbar from '@/components/layout/Topbar'
 import '@/styles/app.css'
 import '@/styles/layout.css'
 import '@/styles/components.css'
 import '@/styles/table.css'
+import '@/styles/print.css'
 
 const googleSans = Google_Sans({
     subsets: ['latin'],

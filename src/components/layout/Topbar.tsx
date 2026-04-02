@@ -1,5 +1,4 @@
 'use client'
-import { headers } from "next/headers"
 import { usePathname } from "next/navigation"
 
 const pageTitles: Record<string, string> = {
@@ -14,9 +13,10 @@ export default function Topbar() {
     const pathname = usePathname()
     const title = pageTitles[pathname] ?? 'SalesHub'
 
-    return
+    return (
         <header className="topbar">
             <div className="topbar-title">{title}</div>
             <div className="topbar-action"></div>
         </header>
+    )
 }

@@ -1,0 +1,71 @@
+@media print {
+  .sidebar,
+  .topbar,
+  .topbar-actions,
+  .btn {
+    display: none !important;
+  }
+
+  .app-shell {
+    display: block;
+  }
+
+  .main-content {
+    overflow: visible;
+  }
+
+  .page-body {
+    padding: 0;
+    overflow: visible;
+  }
+
+  .print-page {
+    width: 210mm;
+    min-height: 297mm;
+    padding: 20mm 24mm;
+    font-family: var(--font-print);
+    font-size: 13px;
+    color: #111;
+    background: #fff;
+  }
+
+  .print-page * {
+    font-family: var(--font-print);
+  }
+
+  .print-center {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  .print-row {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 8px;
+    align-items: flex-end;
+  }
+
+  .print-field {
+    flex: 1;
+    border-bottom: 1px solid #111;
+    min-height: 20px;
+    padding: 0 4px 2px;
+    font-size: 13px;
+    color: #1d4ed8;
+    font-weight: 500;
+  }
+
+  .print-label {
+    font-size: 13px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .print-hr {
+    border: none;
+    border-top: 1px solid #111;
+    margin: 14px 0;
+  }
+}
